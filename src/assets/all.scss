@@ -1,0 +1,11 @@
+@import "bootstrap/scss/functions";
+
+//下底線用來表示為不編譯成獨立檔案 下底線不會影響運作
+@import "./variables";
+@import "bootstrap/scss/bootstrap";
+// 新增變數 $ 自訂變數 .取className
+$body-color: rgb(120, 120, 254);
+//$body-color: rgb(120, 120, 254);
+.App-header {
+    background-color: $body-color;
+}
